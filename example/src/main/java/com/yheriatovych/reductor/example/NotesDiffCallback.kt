@@ -1,6 +1,6 @@
 package com.yheriatovych.reductor.example
 
-import android.support.v7.util.DiffUtil
+import androidx.recyclerview.widget.DiffUtil
 import com.yheriatovych.reductor.example.model.Note
 
 internal class NotesDiffCallback(

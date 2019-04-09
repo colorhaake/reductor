@@ -4,11 +4,11 @@ import android.content.Context
 import android.content.res.TypedArray
 import android.graphics.Rect
 import android.graphics.drawable.Drawable
-import android.support.annotation.DrawableRes
-import android.support.v4.content.ContextCompat
-import android.support.v4.text.TextUtilsCompat
-import android.support.v4.view.ViewCompat
-import android.support.v7.widget.AppCompatEditText
+import androidx.annotation.DrawableRes
+import androidx.core.content.ContextCompat
+import androidx.core.text.TextUtilsCompat
+import androidx.core.view.ViewCompat
+import androidx.appcompat.widget.AppCompatEditText
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.AttributeSet

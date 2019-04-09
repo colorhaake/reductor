@@ -12,6 +12,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support:recyclerview-v7:25.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0-beta01'
     testImplementation 'junit:junit:4.12'
 }

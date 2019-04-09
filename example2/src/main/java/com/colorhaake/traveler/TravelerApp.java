@@ -3,7 +3,7 @@ package com.colorhaake.traveler;
 import android.app.Activity;
 import android.app.Application;
 import android.os.Handler;
-import android.support.multidex.MultiDex;
+import androidx.multidex.MultiDex;
 import android.util.Log;
 
 import com.colorhaake.traveler.injection.component.ApplicationComponent;

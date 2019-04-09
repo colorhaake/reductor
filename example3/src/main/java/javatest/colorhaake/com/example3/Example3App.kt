@@ -3,7 +3,7 @@ package javatest.colorhaake.com.example3
 import android.app.Activity
 import android.app.Application
 import android.content.Context
-import android.support.multidex.MultiDex
+import androidx.multidex.MultiDex
 
 import javatest.colorhaake.com.example3.injection.component.ApplicationComponent
 import javatest.colorhaake.com.example3.injection.component.DaggerApplicationComponent
