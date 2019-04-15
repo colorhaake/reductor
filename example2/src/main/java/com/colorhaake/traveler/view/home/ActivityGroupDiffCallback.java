@@ -1,6 +1,6 @@
 package com.colorhaake.traveler.view.home;
 
-import android.support.v7.util.DiffUtil;
+import androidx.recyclerview.widget.DiffUtil;
 
 import com.colorhaake.traveler.plain_object.ActivityGroup;
 

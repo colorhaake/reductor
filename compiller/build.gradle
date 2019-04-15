@@ -6,16 +6,12 @@ targetCompatibility = JavaVersion.VERSION_1_7
 
 dependencies {
     implementation project(':lib')
-
     implementation 'com.squareup:javapoet:1.7.0'
     implementation 'com.google.auto.service:auto-service:1.0-rc2'
     implementation 'com.google.auto:auto-common:0.8'
-
     compileOnly "com.google.auto.value:auto-value:${autoValueVersion}"
-
     testImplementation "com.google.auto.value:auto-value:${autoValueVersion}"
     testImplementation 'com.google.testing.compile:compile-testing:0.9'
     testImplementation 'junit:junit:4.12'
     testImplementation 'com.google.truth:truth:0.28'
-    testImplementation files(org.gradle.internal.jvm.Jvm.current().getToolsJar())
 }

@@ -1,9 +1,9 @@
 package com.colorhaake.traveler.view.home.activity_event;
 
 import android.graphics.Paint;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,7 +19,6 @@ import com.hannesdorfmann.adapterdelegates3.AbsListItemAdapterDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.BindArray;
 import butterknife.BindView;
 import butterknife.BindViews;
 import butterknife.ButterKnife;

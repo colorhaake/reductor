@@ -1,9 +1,9 @@
 package com.yheriatovych.reductor.example
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.helper.ItemTouchHelper
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.ItemTouchHelper
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
